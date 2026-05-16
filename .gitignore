@@ -1,0 +1,50 @@
+# Local task memory and OmX runtime state
+Prompt.md
+Plan.md
+Implement.md
+Documentation.md
+.omx/
+.private/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Dependencies and build outputs
+node_modules/
+dist/
+coverage/
+.nyc_output/
+.bun-install-cache/
+
+# Python and legacy runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Binary/vendor tooling and archives
+*.exe
+*.dll
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.chm
+
+# Logs and generated reports
+*.log
+*.jsonl
+reports/*.json
+
+# Local credentials/config
+.env
+.env.*
+*.local.json
+*.secrets.*
