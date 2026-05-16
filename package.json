@@ -1,0 +1,36 @@
+{
+  "name": "@bozliu/nbiot-field-sdk",
+  "version": "0.1.0",
+  "description": "B2B NB-IoT field SDK and CLI for modem bring-up, transport validation, and cloud ingestion checks.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": {
+    "nbiot": "./src/cli.ts"
+  },
+  "scripts": {
+    "nbiot": "bun run src/cli.ts",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.0",
+    "@types/node": "^20.17.10",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "keywords": [
+    "nb-iot",
+    "iot",
+    "modem",
+    "ublox",
+    "sara",
+    "field-toolkit",
+    "mqtt",
+    "thingsboard",
+    "aws-iot",
+    "azure-iot"
+  ]
+}
