@@ -8,6 +8,10 @@
     "nbiot": "./src/cli.ts"
   },
   "scripts": {
+    "assets:hero": "bun run scripts/renderHero.ts",
+    "benchmark": "bun run scripts/benchmark.ts",
+    "scan:public": "bun run scripts/scanPublic.ts",
+    "verify:readme": "bun run scripts/verifyReadme.ts",
     "nbiot": "bun run src/cli.ts",
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",

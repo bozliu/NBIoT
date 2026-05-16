@@ -7,14 +7,12 @@ The source folder began as an internal/public-demo mix containing:
 - `Sodaq_NBIoT_examples`: Arduino examples, QCOM/Quectel scripts, and vendor tools.
 - `NB_IoT_demo_python_sdk`: AllThingsTalk Python SDK plus demo proxy.
 
-The original directories were moved to a local backup outside the public release tree:
-
-`/Users/bozliu/.codex/backups/nbiot-public-release-20260516T132510Z`
+The original directories were moved to a private local backup outside the public release tree.
 
 Reasons:
 
 - hardcoded demo credentials
-- internal Bosch file remotes
+- internal/private file remotes
 - generated docs and caches
 - `.DS_Store` and `.omx` runtime files
 - Windows binaries, DLLs, CHM help files, RAR archives

@@ -6,7 +6,7 @@ Before publishing:
 - [ ] `bun run typecheck` passes.
 - [ ] `bun test` passes.
 - [ ] `git ls-files` contains no `.DS_Store`, `.omx`, `.private`, nested `.git`, durable-memory docs, or vendor binaries.
-- [ ] Secret scan finds no live tokens, internal Bosch remotes, or hardcoded public demo endpoints from the original bundle.
+- [ ] Secret scan finds no live tokens, internal/private remotes, or hardcoded public demo endpoints from the original bundle.
 - [ ] README quickstart works from a fresh clone.
 - [ ] `gh repo view bozliu/NBIoT` confirms the target repository is public after push.
 - [ ] Git author email uses GitHub noreply identity.
